@@ -1,0 +1,15 @@
+var utils = {
+	searchBox: $('.search-box'),
+	notifications: $('.notifications'),
+	dropDown: $('.action-list'),
+	actionLink: $('.action-link'),
+	tabLink: $('.tab'),
+	tabData: $('.tabs-data'),
+	settingsBtn: $('.open-settings-btn'),
+	expandBtn: $('.expand-btn'),
+	select: $('.reports-select'),
+	inputs: $('.set-link input'),
+	cancelBtn: $('.cancel-button'),
+	formSettings: $('.fill-site'),
+	settings: $('.form-wrap'),
+};

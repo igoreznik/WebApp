@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    	<link rel="stylesheet" href="css/css reset.css">
+        <link rel="stylesheet" href="fonts/style.css">
+    	<link rel="stylesheet" href="css/main.css">
+    	<title>WebApp</title>
+    </head>
+    <body>
+        <header>
+          <div class="layout-wrap">
+            <a href="#"><img src="https://googledrive.com/host/0B6ZIsommzsgVMVA2MzdKUjN2S0U/logo-netcraft.svg" alt="netcraft"></a>
+            <form class="search-box" method="get">
+                <input type="search" placeholder="search">
+            </form>
+          </div>
+        </header>
+        <div class="layout-wrap notification-wrap">
+            <div class="notifications">
+            </div>
+        </div>
+        <div class="body-wrap">
+            <div class="page-body">    
+                <nav class="justify">
+                    <div class="nav-section" style="background-image: url(img/icons/action-report-new.png)">
+                        <p>
+                            Select
+                            <br/>
+                         Reporting Platform
+                        </p>
+                        <div class="menu">
+                            <div class="menu-hint">
+                                <p>Choose QS report</p>
+                                <div class="arrow"></div>
+                            </div>
+                            <ul class="action-list">
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-section" style="background-image: url(img/icons/action-report-top.png)">
+                        <p>Select
+                            <br/>
+                         Dashboard
+                        </p>
+                        <div class="menu">
+                            <div class="menu-hint">
+                                <p>Choose dashboard</p>
+                                <div class="arrow"></div>
+                            </div>
+                            <ul class="action-list">
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-section" style="background-image: url(img/icons/actions-help.png)">
+                        <p>Help &amp;
+                            <br/>
+                         Tutorials
+                        </p>
+                        <div class="menu">
+                            <div class="menu-hint">
+                                <p>Choose guide</p>
+                                <div class="arrow"></div>
+                            </div>
+                            <ul class="action-list">
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                                <li><a class="action-link" href="#">link</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="tabs">
+                    <ul class="tab-list justify">
+                        <a class="tab" href="#quick-reports">
+                            <i class="icon-external-link"></i>
+                            Quick Reports
+                        </a>   
+                        <a class="tab" href="#my-folder">
+                            <i class="icon-star-o"></i>
+                            My Folders
+                        </a>
+                        <a class="tab" href="#my-team-folders">
+                            <i class="icon-folder-open-o"></i>
+                            My Team Folders
+                        </a>
+                        <a class="tab" href="#public-folders">
+                            <i class="icon-copy"></i>
+                            Public Folders
+                        </a>
+                    </ul>
+                    <section id="quick-reports" class="tabs-data">
+                        <div class="icons clearfix">
+                            <button class="control-btn open-settings-btn open" href=""><img class="toggle-form" src="img/icons/settings.png" alt=""></button>
+                            <button class="control-btn expand-btn" href=""><img src="img/icons/expand.png" alt=""></button>
+                            <select name="fill-form" class="reports-select">
+                            </select>     
+                        </div>
+                        <div class="form-wrap">
+                            <form class="fill-site clearfix">
+                                <fieldset class="justify set-link">
+                                        <legend>Report 01</legend>
+                                        <div class="form-group">
+                                            <label for="siteName1">Name</label>
+                                            <input class="name-input" name="siteName1" id="siteName1" type="text" placeholder="Site Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="siteUrl1">URL</label>
+                                            <input class="url-input" type="url" name="siteUrl1" id="siteUrl1" placeholder="Site Url">
+                                        </div>
+                                </fieldset>
+                                <fieldset class="justify set-link">
+                                        <legend>Report 02</legend>
+                                        <div class="form-group">
+                                            <label for="siteName2">Name</label>
+                                            <input class="name-input" name="siteName2" id="siteName2" type="text" placeholder="Site Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="siteUrl2">URL</label>
+                                            <input type="url" class="url-input" name="siteUrl2" id="siteUrl2" placeholder="Site Url">
+                                        </div>
+                                </fieldset>
+                                <fieldset class="justify set-link">
+                                        <legend>Report 03</legend>
+                                        <div class="form-group">
+                                            <label for="siteName3">Name</label>
+                                            <input class="name-input" name="siteName3" id="siteName3" type="text" placeholder="Site Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="siteUrl3">URL</label>
+                                            <input class="url-input" type="url" name="siteUrl3" id="siteUrl3" placeholder="Site Url">
+                                        </div>
+                                </fieldset>
+                                <div class="button-setings clearfix">
+                                    <button type="submit" class="save-button">Save</button>
+                                    <button type="reset" class="cancel-button">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                            <iframe height="500"></iframe>
+                    </section>
+                    <section id="my-folder" class="tabs-data">
+                        <div class="icons clearfix">
+                            <button class="control-btn expand-btn" href=""><img src="img/icons/expand.png" alt=""></button>     
+                        </div>
+                            <iframe src="http://www.paulirish.com/" height="500"></iframe>
+                    </section>
+                    <section id="my-team-folders" class="tabs-data">
+                        <div class="icons clearfix">
+                            <button class="control-btn open-settings-btn open" href=""><img class="toggle-form" src="img/icons/settings.png" alt=""></button>
+                            <button class="control-btn expand-btn" href=""><img src="img/icons/expand.png" alt=""></button>
+                            <select name="fill-form" class="reports-select">
+                            </select>     
+                        </div>
+                        <div class="form-wrap">
+                            <form class="fill-site clearfix">
+                                <fieldset class="justify set-link">
+                                        <legend>Report 04</legend>
+                                        <div class="form-group">
+                                            <label for="siteName4">Name</label>
+                                            <input class="name-input" name="siteName4" id="siteName4" type="text" placeholder="Site Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="siteUrl4">URL</label>
+                                            <input class="url-input" type="url" name="siteUrl4" id="siteUrl4" placeholder="Site Url">
+                                        </div>
+                                </fieldset>
+                                <fieldset class="justify set-link">
+                                        <legend>Report 05</legend>
+                                        <div class="form-group">
+                                            <label for="siteName2">Name</label>
+                                            <input class="name-input" name="siteName5" id="siteName5" type="text" placeholder="Site Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="siteUrl5">URL</label>
+                                            <input class="url-input" type="url" name="siteUrl5" id="siteUrl5" placeholder="Site Url">
+                                        </div>
+                                </fieldset>
+                                <fieldset class="justify set-link">
+                                        <legend>Report 06</legend>
+                                        <div class="form-group">
+                                            <label for="siteName6">Name</label>
+                                            <input class="name-input" name="siteName6" id="siteName6" type="text" placeholder="Site Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="siteUrl6">URL</label>
+                                            <input class="url-input" type="url" name="siteUrl6" id="siteUrl6" placeholder="Site Url">
+                                        </div>
+                                </fieldset>
+                                <div class="button-setings clearfix">
+                                    <button type="submit" class="save-button">Save</button>
+                                    <button type="reset" class="cancel-button">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                            <iframe height="500"></iframe>
+                    </section>
+                    <section id="public-folders" class="tabs-data">
+                        <div class="icons clearfix">
+                            <button class="control-btn expand-btn" href=""><img src="img/icons/expand.png" alt=""></button>     
+                        </div>
+                            <iframe src="http://www.paulirish.com/" height="500"></iframe>
+                    </section> 
+                </div>   
+            </div>
+        </div>
+        <script src="js/utils.js"></script>
+        <script src="js/tabs.js"></script>
+        <script src="js/tabsCtrl.js"></script>
+        <script src="js/formSettings.js"></script>
+        <script src="js/search.js"></script>
+        <script src="js/storage.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
