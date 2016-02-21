@@ -39,8 +39,8 @@ var tabs = {
 			currentLink = $("[href= " + identity + "]");
 		if(tabs.linkMatch(identity)) {
 			tabs.gotoTab(currentTab, currentLink);
-			storage.storageData.hash = identity;
-			storage.setStorage();
+			//storage.storageData.hash = identity;
+			//storage.setStorage();
 		}
 	}	 
 };

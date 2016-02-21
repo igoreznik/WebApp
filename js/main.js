@@ -17,7 +17,7 @@ $(function() {
 			tabsCtrl.init();
 			formSettings.init();
 			search.init();
-			storage.init();
+			//storage.init();
 		}
 
 	};

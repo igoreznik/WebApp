@@ -85,8 +85,8 @@ var formSettings = {
 				//iframe.hide();
 			}
 			formSettings.closeSettings(tab);
-			storage.storageData[tabId] = reportsArr;
-			storage.setStorage();
+			//storage.storageData[tabId] = reportsArr;
+			//storage.setStorage();
 
 	},
 
